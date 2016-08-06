@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="PostgreSQL - postgres@localhost" uuid="d6923c66-89d2-47ec-b38a-12ceff16e3bb">
+    <database-info product="PostgreSQL" version="9.5.3" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="POSTGRES" format-version="2.6">
+      <database id="1" name="postgres">
+        <object-id>12373</object-id>
+        <visible>1</visible>
+      </database>
+      <schema id="2" parent="1" name="public">
+        <object-id>2200</object-id>
+        <visible>1</visible>
+        <introspection-state-number>627</introspection-state-number>
+        <introspection-timestamp>2016-08-05.23:02:11.802</introspection-timestamp>
+      </schema>
+      <schema id="3" parent="1" name="pg_catalog">
+        <object-id>11</object-id>
+      </schema>
+      <schema id="4" parent="1" name="pg_toast">
+        <object-id>99</object-id>
+      </schema>
+      <schema id="5" parent="1" name="pg_temp_1">
+        <object-id>11816</object-id>
+      </schema>
+      <schema id="6" parent="1" name="pg_toast_temp_1">
+        <object-id>11817</object-id>
+      </schema>
+      <schema id="7" parent="1" name="information_schema">
+        <object-id>12081</object-id>
+      </schema>
+      <table id="8" parent="2" name="products">
+        <object-id>16407</object-id>
+        <state-number>627</state-number>
+      </table>
+      <column id="9" parent="8" name="product_no">
+        <state-number>627</state-number>
+        <data-type>integer|0</data-type>
+      </column>
+      <column id="10" parent="8" name="name">
+        <state-number>627</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="11" parent="8" name="price">
+        <state-number>627</state-number>
+        <data-type>numeric|0</data-type>
+      </column>
+    </database-model>
+  </data-source>
+</component>
